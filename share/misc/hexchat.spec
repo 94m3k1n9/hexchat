@@ -1,6 +1,6 @@
 Summary:   A popular and easy to use graphical IRC (chat) client
 Name:      hexchat
-Version:   2.9.4
+Version:   2.9.5
 Release:   1%{?dist}
 Group:     Applications/Internet
 License:   GPLv2+
@@ -118,6 +118,9 @@ update-desktop-database
 %{_libdir}/hexchat/plugins/python.so
 
 %changelog
+* Sun Feb 03 2013 94m3k1n9 <mail@richardschwab.de> - 2.9.5-1
+- Version bump to 2.9.5
+
 * Sat Oct 27 2012 TingPing <tingping@tingping.se> - 2.9.4-1
 - Version bump to 2.9.4
 - Split up python and perl packages
